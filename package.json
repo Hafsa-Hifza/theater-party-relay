@@ -1,0 +1,17 @@
+{
+  "name": "theater-party-relay",
+  "version": "1.0.0",
+  "description": "GunDB Relay Server for Watch Party App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "gun": "^0.2020.1240",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
